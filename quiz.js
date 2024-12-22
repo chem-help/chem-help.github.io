@@ -9,5 +9,5 @@ function funcName (correct, points) {
   else {
 		totalPoints = totalPoints + points
   }
-	change.innerText = currentPoints + "/" + totalPoints
+	change.innerText = currentPoints + "/" + totalPoints + "\n" + Math.round(((currentPoints/totalPoints) * 100)) + "%"
 }
